@@ -5,24 +5,23 @@ import jsonData from "@/assets/MyanmarMonths.json";
 
 <template>
   <div
-    class="relative flex flex-col my-3 bg-white shadow-sm border border-slate-200 rounded-lg w-96"
+    class="relative flex flex-col my-3 bg-purple-300 shadow-lg border border-slate-200 rounded-lg w-96"
     v-for="month in jsonData.Tbl_Months"
     :key="month.Id"
   >
     <div class="relative h-56 m-2.5 overflow-hidden text-white rounded-md">
-      <img
-        src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
-        alt="card-image"
-      />
+      <img :src="month.ImgUrl" :alt="month.MonthEn" />
     </div>
     <div class="p-4">
-      <h6 class="mb-2 text-slate-800 text-xl font-semibold">
+      <h6 class="mb-2 text-black text-xl font-semibold">
         {{ month.MonthMm }}
         [{{ month.MonthEn }}]
       </h6>
-      <p class="text-slate-600 leading-normal font-light">
+      <p class="text-black leading-normal font-light">
+        <i class="fa-solid fa-feather text-purple-500"></i>
         {{ month.FestivalMm }}
         ({{ month.FestivalEn }})
+        <i class="fa-solid fa-feather text-purple-500"></i>
         <!-- {{ month.Description }} -->
       </p>
     </div>
