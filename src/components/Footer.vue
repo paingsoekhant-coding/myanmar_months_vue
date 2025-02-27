@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <footer
-      class="flex flex-row flex-wrap items-center justify-center my-10 w-full py-6 text-center border-t gap-y-6 gap-x-12 border-slate-200 md:justify-between"
+      class="flex flex-row flex-wrap items-center justify-center w-full py-6 text-center border-t gap-y-6 gap-x-12 border-slate-200 md:justify-between"
     >
       <p class="block text-slate-800 font-semibold text-sm">Myanmar Months</p>
       <ul class="flex flex-wrap items-center gap-y-2 gap-x-8">
