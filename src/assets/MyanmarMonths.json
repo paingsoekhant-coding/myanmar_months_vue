@@ -1,7 +1,7 @@
 {
     "Tbl_Months": [{
             "Id": 1,
-            "ImgUrl": "../src/assets/img/1.jpg",
+            "ImgUrl": "/public/img/1.jpg",
             "FestivelImg": "../src/assets/festival_img/tagu.jpg",
             "MonthMm": "တန်ခူး",
             "MonthEn": "April",
@@ -12,7 +12,7 @@
         },
         {
             "Id": 2,
-            "ImgUrl": "../src/assets/img/2.jpg",
+            "ImgUrl": "/public/img/2.jpg",
             "MonthMm": "ကဆုန်",
             "FestivelImg": "../src/assets/festival_img/kason.jpg",
             "MonthEn": "May",
@@ -23,7 +23,7 @@
         },
         {
             "Id": 3,
-            "ImgUrl": "../src/assets/img/3.jpg",
+            "ImgUrl": "/public/img/3.jpg",
             "FestivelImg": "../src/assets/festival_img/nayon.jpg",
             "MonthMm": "နယုန်",
             "MonthEn": "June",
@@ -34,7 +34,7 @@
         },
         {
             "Id": 4,
-            "ImgUrl": "../src/assets/img/4.jpg",
+            "ImgUrl": "/public/img/4.jpg",
             "FestivelImg": "../src/assets/festival_img/waso.jpg",
             "MonthMm": "ဝါဆို",
             "MonthEn": "July",
@@ -45,7 +45,7 @@
         },
         {
             "Id": 5,
-            "ImgUrl": "../src/assets/img/5.jpg",
+            "ImgUrl": "/public/img/5.jpg",
             "FestivelImg": "../src/assets/festival_img/wagaung.jpg",
             "MonthMm": "ဝါခေါင်",
             "MonthEn": "August",
@@ -56,7 +56,7 @@
         },
         {
             "Id": 6,
-            "ImgUrl": "../src/assets/img/6.jpg",
+            "ImgUrl": "/public/img/6.jpg",
             "FestivelImg": "../src/assets/festival_img/tawthalin.jpg",
             "MonthMm": "တော်သလင်း",
             "MonthEn": "September",
@@ -67,7 +67,7 @@
         },
         {
             "Id": 7,
-            "ImgUrl": "../src/assets/img/7.jpg",
+            "ImgUrl": "/public/img/7.jpg",
             "FestivelImg": "../src/assets/festival_img/thadingyut.jpg",
             "MonthMm": "သီတင်းကျွတ်",
             "MonthEn": "October",
@@ -78,7 +78,7 @@
         },
         {
             "Id": 8,
-            "ImgUrl": "../src/assets/img/8.jpg",
+            "ImgUrl": "/public/img/8.jpg",
             "FestivelImg": "../src/assets/festival_img/tazaungmon.jpg",
             "MonthMm": "တန်ဆောင်မုန်း",
             "MonthEn": "November",
@@ -89,7 +89,7 @@
         },
         {
             "Id": 9,
-            "ImgUrl": "../src/assets/img/9.jpg",
+            "ImgUrl": "/public/img/9.jpg",
             "FestivelImg": "../src/assets/festival_img/nadaw.jpg",
             "MonthMm": "နတ်တော်",
             "MonthEn": "December",
@@ -100,7 +100,7 @@
         },
         {
             "Id": 10,
-            "ImgUrl": "../src/assets/img/10.jpg",
+            "ImgUrl": "/public/img/10.jpg",
             "FestivelImg": "../src/assets/festival_img/pyatho.jpg",
             "MonthMm": "ပြာသို",
             "MonthEn": "January",
@@ -111,7 +111,7 @@
         },
         {
             "Id": 11,
-            "ImgUrl": "../src/assets/img/11.jpg",
+            "ImgUrl": "/public/img/11.jpg",
             "FestivelImg": "../src/assets/festival_img/tabodwe.jpg",
             "MonthMm": "တပို့တွဲ",
             "MonthEn": "February",
@@ -122,7 +122,7 @@
         },
         {
             "Id": 12,
-            "ImgUrl": "../src/assets/img/12.jpg",
+            "ImgUrl": "/public/img/12.jpg",
             "FestivelImg": "../src/assets/festival_img/tabaung.jpg",
             "MonthMm": "တပေါင်း",
             "MonthEn": "March",
