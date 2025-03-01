@@ -1,6 +1,12 @@
 # myanmar_months
+## Summary
 
-This template should help get you started developing with Vue 3 in Vite.
+ကိုယ်ဖတ်ချင်တဲ့ မြန်မာလကို ရွေးမယ်။ ကိုယ်ရွေးချယ်လိုက်တဲ့မြန်မာလမှာ ပွင့်တဲ့ပန်း၊ ရိုးရာပွဲ စတဲ့အကြောင်းလေးတွေ ဖတ်ကြမယ်။
+
+project idea by *[sannlynnhtun-coding](https://github.com/sannlynnhtun-coding)*
+
+![cover image!](./githubImg/cover_one.png)
+![cover image2!](./githubImg/cover_two.png)
 
 ## Recommended IDE Setup
 
