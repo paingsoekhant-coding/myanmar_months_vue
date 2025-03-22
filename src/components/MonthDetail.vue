@@ -1,19 +1,23 @@
 <script setup>
-import jsonData from "@/assets/MyanmarMonths.json";
-import { computed } from "vue";
+import { onMounted } from "vue";
+import { useRoute } from "vue-router";
 import { RouterLink } from "vue-router";
 import { ref } from "vue";
 import Sun from "@/components/Sun.vue";
-const months = ref(jsonData["Tbl_Months"]);
+
+const months = ref([]);
+const route = useRoute();
+onMounted(async () => {
+  const response = await fetch("/MyanmarMonths.json");
+  const jsonData = await response.json();
+  months.value = jsonData["Tbl_Months"];
+});
 </script>
 
 <template >
   <div class="" v-for="month in months" :key="month.Id">
     <div class="flex justify-center items-baseline min-h-screen">
-      <div
-        class="rounded-2xl shadow-lg p-8"
-        v-if="month.Id == this.$route.params.id"
-      >
+      <div class="rounded-2xl shadow-lg p-8" v-if="month.Id == route.params.id">
         <router-link to="/"
           ><i
             class="fa-regular fa-circle-left text-2xl mb-6 text-purple-400"

@@ -1,8 +1,14 @@
 <script setup>
-import jsonData from "@/assets/MyanmarMonths.json";
+import { onMounted } from "vue";
 import { RouterLink } from "vue-router";
 import { ref } from "vue";
-const months = ref(jsonData["Tbl_Months"]);
+
+const months = ref([]);
+onMounted(async () => {
+  const response = await fetch("/MyanmarMonths.json");
+  const jsonData = await response.json();
+  months.value = jsonData["Tbl_Months"];
+});
 </script>
 
 
